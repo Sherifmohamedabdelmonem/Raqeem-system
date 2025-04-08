@@ -1,2 +1,2 @@
 from flask import Blueprint
-auth = Blueprint('language', __name__)
+language = Blueprint('language', __name__)
