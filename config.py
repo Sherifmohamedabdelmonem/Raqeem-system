@@ -1,5 +1,5 @@
 class Config:
-    SECRET_KEY = 'super_secure_secret_2025'
+    SECRET_KEY = 'your-secret'
     DATABASE = 'data.db'
     SMTP_SERVER = 'smtp.gmail.com'
     SMTP_PORT = 587

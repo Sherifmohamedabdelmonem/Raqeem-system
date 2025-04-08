@@ -9,5 +9,5 @@ services:
         value: production
       - key: EMAIL_SENDER
         value: raqeemsystem@gmail.com
-      - key: raqeem01006797032%%%
-        value: your_email_app_password
+      - key: EMAIL_PASSWORD
+        value: raqeem01006797032%%%
