@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: raqeem
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: EMAIL_SENDER
+        value: your_email@gmail.com
+      - key: EMAIL_PASSWORD
+        value: your_email_app_password
