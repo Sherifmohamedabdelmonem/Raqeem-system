@@ -1,2 +1,2 @@
 from flask import Blueprint
-auth = Blueprint('auth', __name__)
+auth = Blueprint('orders', __name__)
